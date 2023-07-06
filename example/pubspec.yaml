@@ -1,0 +1,29 @@
+name: example
+description: A new Flutter application.
+
+version: 1.0.0+1
+publish_to: "none"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  avatar_glow:
+    path: ../
+
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/avatar.png
+    - assets/images/flutter.png
+    - assets/images/love.png
+    - assets/images/dart.png
